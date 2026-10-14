@@ -1,9 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int grade = 85;
-        if (grade == 85) {
-            System.out.println("Great job!");
-
-        }
-    }
-}
+        int age = 17;
+        if (age < 5) {
+            System.out.println("Free");
+        } else if (age  <17) {
+            System.out.println("$8");
+        } else if (age  <24) {
+            System.out.println("$12");
+        } else if (age <64) {
+            System.out.println("$12");
+        } else if(age <65)
+            System.out.println("$8");
+                }
+            }
+        
